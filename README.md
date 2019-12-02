@@ -20,18 +20,12 @@ Another approach which was used very popularly is to built the loss function of 
 
 The discriminator is well trained in distinguishing between the actual image and the artificial image even in the Generative Adversarial Network (GAN), but GAN performs poorly with the discrete token values since the guidance is too small to cause a change in the restricted dictionary space. The paper suggests using Reinforcement Learning to train the generator portion of GAN.
 
-## Prerequisites
-
-- Python 2.7
-- [Pytorch 1.2.0](https://pytorch.org/)
-- pretty-midi (only for music dataset)
-
 ## Requirements
 
 - Python 3.6 or >
 - colorama
 - numpy      >= 1.12.1
-- [tensorflow >= 1.5.0] (https://www.tensorflow.org/)
+- [tensorflow >= 1.5.0](https://www.tensorflow.org/)
 - scipy      >= 0.19.0
 - nltk       >= 3.2.3
 
