@@ -28,9 +28,10 @@ The discriminator is well trained in distinguishing between the actual image and
 
 ## Requirements
 
+- Python 3.6 or >
 - colorama
 - numpy      >= 1.12.1
-- tensorflow >= 1.5.0
+- [tensorflow >= 1.5.0] (https://www.tensorflow.org/)
 - scipy      >= 0.19.0
 - nltk       >= 3.2.3
 
