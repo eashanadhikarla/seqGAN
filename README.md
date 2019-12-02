@@ -31,36 +31,8 @@ The discriminator is well trained in distinguishing between the actual image and
 ### Datasets
 
 - A randomly initialized LSTM is used to simulate a specific distribution.
-- A music dataset contains multiple Nottingham Songs.
-
-### Training LSTM 
-
-- Run 
-```
-python2 main.py --pretrain_g_epochs 2000 --total_epochs 0 --log_dir logs/train/pure_pretrain --eval_log_dir logs/eval/pure_pretrain
-```
-to have a baseline that is trained with pure MLE loss for 2000 iterations.
-- Run 
-```
-python2 main.py --pretrain_g_epochs 1000 --total_epochs 1000 --log_dir logs/train/pretrain_n_seqgan  --eval_log_dir logs/eval/with_seqgan
-```
-to train the model with first pretraining loss and then SeqGAN's loss.
-- Run 
-```
-tensorboard --logdir logs/eval/
-```
-and open your browser to check the improvement that SeqGAN provided.
-
-### Music generation
-
-- Run `bash train_nottingham.sh` to train the model. Check data/Nottingham/\*.mid for generations. The songs will be updated every 100 epochs.
-
-## Results
-
-<p align="center">
-    <img src="figures/SeqGAN.png">
-</p>
-In this figure, the blue line is Negative Log Likelihood(NLL) of purely using supervised learning (MLE loss) to train the generator, while the orange one is first using MLE to pretrain and then optimizing the adversarial loss. Two curves overlap with each other at the beginning since the same random seed is used.  After using SeqGAN's loss, the NLL drops and converges to a smaller loss, which indicates that the generated sequences match the distribution of the randomly intialized LSTM better. 
+- Obama Speech Dataset.
+- Chinese Poem Dataset.
 
 ## Related works
 
