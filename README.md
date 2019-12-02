@@ -1,4 +1,4 @@
-# SeqGAN in Pytorch
+# SeqGAN
 
 SeqGAN adapts GAN for sequential generation. It regards the generator as a policy in reinforcement learning and the discriminator is trained to provide the reward. To evaluate unfinished sequences, Monto-Carlo search is also applied to sample the complete sequences.
 
@@ -26,7 +26,13 @@ The discriminator is well trained in distinguishing between the actual image and
 - [Pytorch 1.2.0](https://pytorch.org/)
 - pretty-midi (only for music dataset)
 
-## Usage
+## Requirements
+
+- colorama
+- numpy      >= 1.12.1
+- tensorflow >= 1.5.0
+- scipy      >= 0.19.0
+- nltk       >= 3.2.3
 
 ### Datasets
 
