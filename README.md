@@ -1,4 +1,4 @@
-# SeqGAN
+# SeqGAN: An extended study
 
 SeqGAN adapts GAN for sequential generation. It regards the generator as a policy in reinforcement learning and the discriminator is trained to provide the reward. To evaluate unfinished sequences, Monto-Carlo search is also applied to sample the complete sequences.
 
