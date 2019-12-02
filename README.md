@@ -5,7 +5,7 @@ SeqGAN adapts GAN for sequential generation. It regards the generator as a polic
 This project is implemented by [Eashan Adhikarla](https://sites.google.com/eashanadhikarla) and reviewed by [Prof. Xie Sihong](http://www.cse.lehigh.edu/~sxie/projects.html).
 
 ## Descriptions
-This project includes a [[Pytorch](https://github.com/pytorch)] implementation of **SeqGAN** proposed in the paper [[SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient](https://arxiv.org/abs/1609.05473)] by Lantao Yu et al. at Shanghai Jiao Tong University and University College London.
+This project includes an implementation of **SeqGAN** and comparison models proposed in the paper [[SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient](https://arxiv.org/abs/1609.05473)] by Lantao Yu et al. at Shanghai Jiao Tong University and University College London.
 
 <p align="center">
     <img src="https://github.com/LantaoYu/SeqGAN/raw/master/figures/seqgan.png">
